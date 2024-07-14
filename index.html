@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./assets/mario.png" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Mario Geek</title>
+</head>
+<body>
+    
+    <header>   
+        <div class="container_encabezado">
+            <img class="logo_encabezado" src="./Img/super-mario.png" alt="Logo videogame">
+            <h1 class="titulo_encabezado">Mario Geek</h1>
+        </div>
+
+        
+    </header> 
+
+    <div class="imagen-encabezado">
+            <h1 class="Titulo_productos">Nuestros productos</h1>
+    </div>
+        
+    <main class="container2">  
+              
+        <section class="registroProductos">
+            <div class="title-container">
+                <h2 class="registrar">Registrar Productos</h2>
+            </div>
+            
+            <div>
+                <form class="form-container" data-form>
+                    <input class="dato" data-name placeholder="Nombre..." type="text">
+                    <input class="dato" data-price placeholder="Precio..." type="text">
+                    <input class="dato"  data-image placeholder="Imagen..." type="text">
+            
+                    <div class="button-container">
+                        <button  type="submit" class="button-submit" id="button">Enviar...</button>
+                        <button   type="reset"  class="button-clear"  id="button">Limpiar...</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="lista-productos" class="misProductos">
+            <section class="listado-producto car-container">
+                <div >
+                    <h2 class="subtitulo">Productos</h2>
+                <div data-producto class="lista-card" >
+
+            </section> 
+        </section> 
+
+            
+    </main>
+
+    <footer >
+        <div class="menu-footer">
+            <div class="container">
+                <div class="icons-and-title">
+                    <img class="menu-icono" src="./Img/super-mario.png">
+                    <h1 class="menu-titulo-footer"> MarioGeek</h1> 
+                </div>
+                <p class="copyright"> &copy; Copyright - 2024 Camila Vildoso</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./js/verProducto.js" type="module" ></script> 
+    <script src="./js/crearProducto.js" type="module"></script>
+ 
+</body>
+</html>

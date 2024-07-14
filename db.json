@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": "3197",
+      "Nombre": "Funko-Mario Bross",
+      "Precio": "78",
+      "image": "https://cdn.openart.ai/uploads/image_SVxPI0Ha_1695237556815_raw.jpg"
+    },
+    {
+      "id": "ca49",
+      "Nombre": "New Super Mario Bros U Deluxe - Nintendo Switch",
+      "Precio": "276",
+      "image": "https://cdn.iset.io/assets/56293/produtos/1158/9568e3cec87264b31426df0637d04559661d7c7f28c02.png"
+    },
+    {
+      "id": "6dbb",
+      "Nombre": "Peluche Toad",
+      "Precio": "50",
+      "image": "https://cdn.gameplanet.com/wp-content/uploads/2022/08/31213011/toad.jpg"
+    }
+  ]
+}
